@@ -377,7 +377,6 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:locket_count", source: "local", caption: { type: "locket_count" } },
                 ]
             },
-            {
              {
                 section: "🎨 Holiday Caption",
                 items: [
