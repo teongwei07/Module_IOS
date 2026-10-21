@@ -352,10 +352,10 @@ if (ua.includes("Locket")) {
         music_caption_enabled: "true",
         music_caption_song_preview_enabled: "true",
         link_caption_link_enabled: "true",
-        overlay_dynamic_captions: JSON.stringify([
+            overlay_dynamic_captions: JSON.stringify([
             "standard", "poll", "color_palette", "review", "music", "location",
             "weather", "time", "streak", "star_sign", "party_time", "locket_count",
-            "good_morning", "goodnight", "ootd", "miss_you", "custom", "halloween_2026"
+            "good_morning", "goodnight", "ootd", "miss_you", "custom", "phunu_2010", "halloween_2026", "chuoi_ngay_cay_phim", "phu_trong_dep_trai", "sinh_nhat_vui_ve_nha_ba", "cai_gi_z_troi", "chi_dien_toi_day", "hoc_lam_z_troi"
         ]),
         overlay_items: JSON.stringify([
             {
@@ -378,16 +378,20 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
+             {
                 section: "🎨 Holiday Caption",
                 items: [
-                    { overlay_id: "caption:halloween_2026", source: "remote", caption: { background: { colors: ["#150804", "#C8540D"] }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/halloween_indicator%403x.png", source: "url" }, max_lines: 1, text: "Halloween", localized_text: { en: "Halloween", vn: "Halloween" }, text_color: "#FFB182", type: "static_content" } },
+                    { overlay_id: "caption:halloween_2026", source: "remote", caption: { background: { colors: ["#150804", "#C8540D"] }, icon: { data: "🎃", type: "emoji" }, max_lines: 1, text: "Halloween", localized_text: { en: "Halloween", vn: "Halloween" }, text_color: "#FFB182", type: "static_content" } },
                     { overlay_id: "caption:autumn_2026", source: "remote", caption: { background: { colors: ["#FFE0A0", "#F6A53A"] }, icon: { data: "🍂", type: "emoji" }, max_lines: 1, text: "Xin chào Mùa Thu", localized_text: { en: "Xin chào Mùa Thu", vn: "Xin chào Mùa Thu" }, text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:christmas_eve_2026", source: "remote", caption: { background: { colors: ["#2FA85F", "#176B3A"] }, icon: { data: "🕯️", type: "emoji" }, max_lines: 1, text: "Giáng sinh an lành", localized_text: { en: "Giáng sinh an lành", vn: "Giáng sinh an lành" }, text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:christmas_day_2026", source: "remote", caption: { background: { colors: ["#E53935", "#A81818"] }, icon: { data: "🎄", type: "emoji" }, max_lines: 1, text: "Giáng sinh an lành", localized_text: { en: "Giáng sinh an lành", vn: "Giáng sinh an lành" }, text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:new_years_eve_2026", source: "remote", caption: { background: { colors: ["#FFC64B", "#FFEDBF"] }, icon: { data: "🥂", type: "emoji" }, max_lines: 1, text: "Xin chào 2027!", localized_text: { en: "Xin chào 2027!", vn: "Xin chào 2027!" }, text_color: "#643F00", type: "static_content" } },
                     { overlay_id: "caption:new_years_day_2027", source: "remote", caption: { background: { colors: ["#3B00EC", "#823FFF"] }, icon: { data: "💫", type: "emoji" }, max_lines: 1, text: "Xin chào 2027!", localized_text: { en: "Xin chào 2027!", vn: "Xin chào 2027!" }, text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:new_years_day_2027_alternate", source: "remote", caption: { background: { colors: ["#FF0062", "#FF783F"] }, max_lines: 1, text: "2027", text_color: "#FFFFFF", type: "static_content" } },
-                    { overlay_id: "caption:no_memory", source: "remote", caption: { background: { image: { type: "image", data: "https://public.locketcamera.com/locket-public/overlays/forgotten_island/forgotten_island_bg.png", source: "url" }, colors: ["#1A1A2E", "#16213E"] }, max_lines: 1, text: "NO MEMORY LEFT BEHIND", text_color: "#FFFFFFE6", type: "static_content" } },
+                    { overlay_id: "caption:phu_trong_dep_trai", source: "remote", caption: { background: { colors: ["#FF9A9E", "#FECFEF", "#FEC8D8"] }, icon: { data: "🤭", type: "emoji" }, max_lines: 1, text: "Phú Trọng đẹp trai", localized_text: { en: "Phú Trọng đẹp trai", vn: "Phú Trọng đẹp trai" }, text_color: "#703848", type: "static_content" } },
+                    { overlay_id: "caption:chuoi_ngay_cay_phim", source: "remote", caption: { background: { colors: ["#FF0062", "#FF783F"] }, icon: { data: "🍿", type: "emoji" }, max_lines: 1, text: "Chuỗi ngày cày phim bắt đầu", localized_text: { en: "Chuỗi ngày cày phim bắt đầu", vn: "Chuỗi ngày cày phim bắt đầu" }, text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:chi_dien_toi_day", source: "remote", caption: { background: { colors: ["#FFB5E8", "#F3C1D4", "#E8CFF0"] }, icon: { data: "😍", type: "emoji" }, max_lines: 1, text: "Chị Điền tôi đấy", localized_text: { en: "Chị Điền tôi đấy", vn: "Chị Điền tôi đấy" }, text_color: "#71465D", type: "static_content" } },
+                     { overlay_id: "caption:hoc_lam_z_troi", source: "remote", caption: { background: { colors: ["#6B7280", "#9CA3AF", "#D1D5DB"] }, icon: { data: "😵‍💫", type: "emoji" }, max_lines: 1, text: "Học lắm z trời", localized_text: { en: "Học lắm z trời", vn: "Học lắm z trời" }, text_color: "#FFFFFF", type: "static_content" } }
                 ]
             },
             {
@@ -402,9 +406,8 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
-                section: "🎨 Decorative by Duy Vinh",
+                section: "🎨 Decorative by Truong Phu Trong",
                 items: [
-                    { overlay_id: "caption:duyvinh09", source: "remote", caption: { background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] }, icon: { data: "tortoise.fill", type: "sf_symbol", color: "#183153" }, max_lines: 1, text: "duyvinh09", text_color: "#183153", type: "static_content" } },
                     { overlay_id: "caption:cu", source: "remote", caption: { background: { colors: ["#FFD6A5", "#FFF1A8", "#FFC4D6"] }, max_lines: 1, text: "Cu 🐎", text_color: "#633B24", type: "static_content" } },
                     { overlay_id: "caption:tuat", source: "remote", caption: { background: { colors: ["#2C1A0E", "#5D4037", "#D7A86E"] }, icon: { data: "🐕", type: "emoji" }, max_lines: 1, text: "Tuất", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:snake_vibes", source: "remote", caption: { background: { colors: ["#2E7D32", "#66BB6A"] }, icon: { data: "🐍", type: "emoji" }, max_lines: 1, text: "Snake Vibes", localized_text: { en: "Snake Vibes", vn: "Chất rắn" }, text_color: "#FFFFFFE6", type: "static_content" } },
@@ -528,6 +531,8 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:phu_huynh_dung_xem", source: "remote", caption: { background: { colors: ["#FF0844", "#FFB199"] }, icon: { data: "🙈", type: "emoji" }, max_lines: 1, text: "Phụ huynh đừng xem", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:khong_van_de_gi_luon", source: "remote", caption: { background: { colors: ["#087E8B", "#39B8A5", "#B8F2E6"] }, icon: { data: "👌", type: "emoji" }, max_lines: 1, text: "Không vấn đề gì luôn", text_color: "#103F43", type: "static_content" } },
                     { overlay_id: "caption:bung_no", source: "remote", caption: { background: { colors: ["#FF6B6B", "#FF8E53", "#FFD166"] }, icon: { data: "💥", type: "emoji" }, max_lines: 1, text: "Bùng nổ", text_color: "#702B16", type: "static_content" } },
+                    { overlay_id: "caption:sinh_nhat_vui_ve_nha_ba", source: "remote", caption: { background: { colors: ["#FF758C", "#FF7EB3", "#FFC3A0"] }, icon: { data: "🎂", type: "emoji" }, max_lines: 1, text: "Sinh nhật vui vẻ nha bà", localized_text: { en: "Sinh nhật vui vẻ nha bà", vn: "Sinh nhật vui vẻ nha bà" }, text_color: "#FFFFFF", type: "static_content" } },
+                     { overlay_id: "caption:cai_gi_z_troi", source: "remote", caption: { background: { colors: ["#E2E8F0", "#CBD5E1", "#94A3B8"] }, icon: { data: "🙂", type: "emoji" }, max_lines: 1, text: "Cái gì z trời", localized_text: { en: "Cái gì z trời", vn: "Cái gì z trời" }, text_color: "#1E293B", type: "static_content" } },
                     { overlay_id: "caption:xin_vinh_biet_cu", source: "remote", caption: { background: { colors: ["#232526", "#414345"] }, icon: { data: "🕯️", type: "emoji" }, max_lines: 1, text: "Xin vĩnh biệt cụ", text_color: "#FFFFFFE6", type: "static_content" } }
                 ]
             },
