@@ -264,8 +264,8 @@ if (ua.includes("Locket")) {
         widget_last_sent_indicator: "false",
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
-            uid: "tian_xiwei_frame_fixed_v1", // Đổi UID để Locket làm mới cache lập tức
-            url: "https://i.ibb.co/20h2FsGy/3-D0-D25-FB-DCF8-4657-9396-6-F4-DAD0-B9-A5-A.png", // Link khung Điền Hi Vi của bạn[span_0](start_span)[span_0](end_span)
+            uid: "new_custom_frame_v2", // Đổi UID mới để Locket không dùng lại cache khung cũ
+            url: "https://i.ibb.co/twkZcQ6R/A0533-F78-B463-4-C3-F-A387-DA708725-ECC6.png", // Link khung mới của m
             use_local_time_zone: true,
             placement: "below",
             start_at: "2020-01-01T00:00:00",
