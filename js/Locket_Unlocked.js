@@ -264,11 +264,8 @@ if (ua.includes("Locket")) {
         widget_last_sent_indicator: "false",
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
-            uid: "midautumn_2026",
-            // url: "https://i.ibb.co/vC8b93Ld/ig.png",
-            url: "https://i.ibb.co/1Yt1Dzzy/Shin-chan-1.png",
-            // url: "https://i.ibb.co/RTm5P1n9/kitty-1.png",
-            // url: "https://i.ibb.co/JjLZ3cvD/khung-ins.png",
+            uid: "tian_xiwei_frame_fixed_v1", // Đổi UID để Locket làm mới cache lập tức
+            url: "https://i.ibb.co/20h2FsGy/3-D0-D25-FB-DCF8-4657-9396-6-F4-DAD0-B9-A5-A.png", // Link khung Điền Hi Vi của bạn[span_0](start_span)[span_0](end_span)
             use_local_time_zone: true,
             placement: "below",
             start_at: "2020-01-01T00:00:00",
