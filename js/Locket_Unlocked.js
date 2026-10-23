@@ -352,7 +352,7 @@ if (ua.includes("Locket")) {
             overlay_dynamic_captions: JSON.stringify([
             "standard", "poll", "color_palette", "review", "music", "location",
             "weather", "time", "streak", "star_sign", "party_time", "locket_count",
-            "good_morning", "goodnight", "ootd", "miss_you", "custom", "phunu_2010", "halloween_2026", "chuoi_ngay_cay_phim", "phu_trong_dep_trai", "sinh_nhat_vui_ve_nha_ba", "cai_gi_z_troi", "chi_dien_toi_day", "hoc_lam_z_troi", "toi_gio_di_ngu_roi", "wo_ai_ni", "tian_xiwei", "toi_me_ba_qua"
+            "good_morning", "goodnight", "ootd", "miss_you", "custom", "phunu_2010", "halloween_2026", "chuoi_ngay_cay_phim", "phu_trong_dep_trai", "sinh_nhat_vui_ve_nha_ba", "cai_gi_z_troi", "chi_dien_toi_day", "hoc_lam_z_troi", "toi_gio_di_ngu_roi", "wo_ai_ni", "tian_xiwei", "toi_me_ba_qua", "bien_oi_huuu", "gut_mo_ninh", "bao_nua_roi_a"
         ]),
         overlay_items: JSON.stringify([
             {
@@ -383,7 +383,10 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:wo_ai_ni", source: "remote", caption: { background: { colors: ["#FF9A9E", "#FECFEF", "#FFC3A0"] }, icon: { data: "🌷", type: "emoji" }, max_lines: 1, text: "我爱你", localized_text: { en: "我爱你", vn: "我爱你" }, text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:tian_xiwei", source: "remote", caption: { background: { colors: ["#F43F5E", "#FB7185", "#FFE4E6"] }, icon: { data: "👑", type: "emoji" }, max_lines: 1, text: "Tian Xiwei", localized_text: { en: "Tian Xiwei", vn: "Tian Xiwei" }, text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:toi_me_ba_qua", source: "remote", caption: { background: { colors: ["#FF758C", "#FF7EB3", "#FFC3A0"] }, icon: { data: "😍", type: "emoji" }, max_lines: 1, text: "Tôi mê bà quá bà ơi", localized_text: { en: "Tôi mê bà quá bà ơi", vn: "Tôi mê bà quá bà ơi" }, text_color: "#FFFFFF", type: "static_content" } },
-                    { overlay_id: "caption:hoc_lam_z_troi", source: "remote", caption: { background: { colors: ["#6B7280", "#9CA3AF", "#D1D5DB"] }, icon: { data: "😵‍💫", type: "emoji" }, max_lines: 1, text: "Học lắm z trời", localized_text: { en: "Học lắm z trời", vn: "Học lắm z trời" }, text_color: "#FFFFFF", type: "static_content" } }
+                    { overlay_id: "caption:hoc_lam_z_troi", source: "remote", caption: { background: { colors: ["#6B7280", "#9CA3AF", "#D1D5DB"] }, icon: { data: "😵‍💫", type: "emoji" }, max_lines: 1, text: "Học lắm z trời", localized_text: { en: "Học lắm z trời", vn: "Học lắm z trời" }, text_color: "#FFFFFF", type: "static_content" } },
+                     { overlay_id: "caption:gut_mo_ninh", source: "remote", caption: { background: { colors: ["#FF8C00", "#FFA500", "#FFD700"] }, icon: { data: "☀️", type: "emoji" }, max_lines: 1, text: "Gút mó ninh", localized_text: { en: "Gút mó ninh", vn: "Gút mó ninh" }, text_color: "#FFFFFF", type: "static_content" } },
+                     { overlay_id: "caption:bao_nua_roi_a", source: "remote", caption: { background: { colors: ["#FF416C", "#FF4B2B"] }, icon: { data: "😠", type: "emoji" }, max_lines: 1, text: "Báo nữa rồi á", localized_text: { en: "Báo nữa rồi á", vn: "Báo nữa rồi á" }, text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:bien_oi_huuu", source: "remote", caption: { background: { colors: ["#00B4DB", "#0083B0"] }, icon: { data: "🌊", type: "emoji" }, max_lines: 1, text: "Biển ơi!!! Húuuu", localized_text: { en: "Biển ơi!!! Húuuu", vn: "Biển ơi!!! Húuuu" }, text_color: "#FFFFFF", type: "static_content" } }
                 ]
             },
              {
