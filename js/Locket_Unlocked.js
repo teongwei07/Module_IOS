@@ -263,14 +263,7 @@ if (ua.includes("Locket")) {
         widget_stale_state_enabled: "false",
         widget_last_sent_indicator: "false",
         widget_sync_token_reload_mode: "clearTokenNever",
-        widget_frame_event: JSON.stringify({
-            uid: "custom_frame_v12", // Đổi UID mới để Locket buộc làm mới cache
-            url: "https://i.ibb.co/LXmYMsTx/C8-CF3-F9-B-247-C-44-A3-AB39-2-BF7-D74-B5-B78.png", // Link khung mới
-            use_local_time_zone: true,
-            placement: "below",
-            start_at: "2020-01-01T00:00:00",
-            end_at: "2099-12-31T23:59:59"
-        }),
+        widget_frame_event: null,
         live_activity_onboarding: "true",
         live_activity_onboarding_variant: "friending",
         register_live_activity_push_to_start_token: "true",
