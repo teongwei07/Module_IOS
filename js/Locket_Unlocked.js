@@ -264,8 +264,8 @@ if (ua.includes("Locket")) {
         widget_last_sent_indicator: "false",
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
-            uid: "custom_frame_v6", // Đổi UID mới để Locket ép làm mới cache
-            url: "https://i.ibb.co/99bFnMXz/C291-AC96-FB44-4-F02-8803-7-D5-A26700-FC2.png", // Link khung mới
+            uid: "custom_frame_v7", // Đổi UID mới để Locket buộc làm mới cache
+            url: "https://i.ibb.co/fY45ySMV/4680-B9-EB-A490-4885-85-A2-6-C9-FEA1147-A2.png", // Link khung mới
             use_local_time_zone: true,
             placement: "below",
             start_at: "2020-01-01T00:00:00",
