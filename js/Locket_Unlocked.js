@@ -256,15 +256,6 @@ if (ua.includes("Locket")) {
     // 6. WIDGET, THÔNG BÁO & GIAO DIỆN (JOURNAL / PROFILE)
     // ============================================================
         Object.assign(obj.entries, {
-        // --- BẬT TÍNH NĂNG STICKER DIỆN MẠO ---
-        camera_overlays_enabled: "true",
-        camera_overlays_v2_enabled: "true",
-        face_detection_enabled: "true",
-        ar_effects_enabled: "true",
-        camera_sticker_picker_enabled: "true",
-        camera_overlay_assets_enabled: "true",
-        
-        // --- GIỮ NGUYÊN CÁC CẤU HÌNH KHUNG & CAPTION CỦA M ---
         widget_frame_event_max_images: "5",
         android_widget_frame_event_enabled: "true",
         widget_badge_enabled: "true",
@@ -272,7 +263,6 @@ if (ua.includes("Locket")) {
         widget_stale_state_enabled: "false",
         widget_last_sent_indicator: "false",
         widget_sync_token_reload_mode: "clearTokenNever",
-
         widget_frame_event: JSON.stringify({
             uid: "custom_frame_v12",
             url: "https://i.ibb.co/LXmYMsTx/C8-CF3-F9-B-247-C-44-A3-AB39-2-BF7-D74-B5-B78.png",
@@ -281,7 +271,6 @@ if (ua.includes("Locket")) {
             start_at: "2020-01-01T00:00:00",
             end_at: "2099-12-31T23:59:59"
         }),
-
         live_activity_onboarding: "true",
         live_activity_onboarding_variant: "friending",
         register_live_activity_push_to_start_token: "true",
@@ -304,6 +293,10 @@ if (ua.includes("Locket")) {
             streak_visualization_minimum_count: 2,
             overlay_indicators: { location: false, music: true, static_content: true, weather: true }
         }),
+        qr_code_config: JSON.stringify({ profile_enabled: true, scanning_enabled: true }),
+        custom_profile_pics: "true",
+        profile_menu_v2_enabled: "true"
+    });
         qr_code_config: JSON.stringify({ profile_enabled: true, scanning_enabled: true }),
         custom_profile_pics: "true",
         profile_menu_v2_enabled: "true"
