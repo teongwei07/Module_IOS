@@ -265,7 +265,7 @@ if (ua.includes("Locket")) {
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
             uid: "custom_frame_v12",
-            url: "https://i.ibb.co/LXmYMsTx/C8-CF3-F9-B-247-C-44-A3-AB39-2-BF7-D74-B5-B78.png",
+            url: "https://i.ibb.co/LXmYMsTx/C8-CF3-F9-B-247-C-44-A3-AB39-2-BF7-D74-B5-B78.png", // Link khung mới
             use_local_time_zone: true,
             placement: "below",
             start_at: "2020-01-01T00:00:00",
@@ -293,10 +293,6 @@ if (ua.includes("Locket")) {
             streak_visualization_minimum_count: 2,
             overlay_indicators: { location: false, music: true, static_content: true, weather: true }
         }),
-        qr_code_config: JSON.stringify({ profile_enabled: true, scanning_enabled: true }),
-        custom_profile_pics: "true",
-        profile_menu_v2_enabled: "true"
-    });
         qr_code_config: JSON.stringify({ profile_enabled: true, scanning_enabled: true }),
         custom_profile_pics: "true",
         profile_menu_v2_enabled: "true"
