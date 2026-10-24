@@ -255,7 +255,16 @@ if (ua.includes("Locket")) {
     // ============================================================
     // 6. WIDGET, THÔNG BÁO & GIAO DIỆN (JOURNAL / PROFILE)
     // ============================================================
-            Object.assign(obj.entries, {
+        Object.assign(obj.entries, {
+        // --- BẬT TÍNH NĂNG STICKER DIỆN MẠO ---
+        camera_overlays_enabled: "true",
+        camera_overlays_v2_enabled: "true",
+        face_detection_enabled: "true",
+        ar_effects_enabled: "true",
+        camera_sticker_picker_enabled: "true",
+        camera_overlay_assets_enabled: "true",
+        
+        // --- GIỮ NGUYÊN CÁC CẤU HÌNH KHUNG & CAPTION CỦA M ---
         widget_frame_event_max_images: "5",
         android_widget_frame_event_enabled: "true",
         widget_badge_enabled: "true",
@@ -264,7 +273,6 @@ if (ua.includes("Locket")) {
         widget_last_sent_indicator: "false",
         widget_sync_token_reload_mode: "clearTokenNever",
 
-        // Khung viền widget của bạn
         widget_frame_event: JSON.stringify({
             uid: "custom_frame_v12",
             url: "https://i.ibb.co/LXmYMsTx/C8-CF3-F9-B-247-C-44-A3-AB39-2-BF7-D74-B5-B78.png",
