@@ -352,12 +352,19 @@ if (ua.includes("Locket")) {
             overlay_dynamic_captions: JSON.stringify([
             "standard", "poll", "color_palette", "review", "music", "location",
             "weather", "time", "streak", "star_sign", "party_time", "locket_count",
-            "good_morning", "goodnight", "ootd", "miss_you", "custom", "phunu_2010", "halloween_2026", "chuoi_ngay_cay_phim", "phu_trong_dep_trai", "sinh_nhat_vui_ve_nha_ba", "cai_gi_z_troi", "chi_dien_toi_day", "hoc_lam_z_troi", "toi_gio_di_ngu_roi", "wo_ai_ni", "tian_xiwei", "toi_me_ba_qua", "bien_oi_huuu", "gut_mo_ninh", "bao_nua_roi_a"
+            "good_morning", "goodnight", "ootd", "miss_you", "custom", "phunu_2010", "halloween_2026", "chuoi_ngay_cay_phim", "phu_trong_dep_trai", "sinh_nhat_vui_ve_nha_ba", "cai_gi_z_troi", "chi_dien_toi_day", "hoc_lam_z_troi", "toi_gio_di_ngu_roi", "wo_ai_ni", "tian_xiwei", "toi_me_ba_qua", "bien_oi_huuu", "gut_mo_ninh", "bao_nua_roi_a","bao_nua_roi_a", "custom_color_1", "custom_color_2", "custom_color_3", "custom_color_4", "custom_color_5", "custom_color_6", "custom_color_7"
         ]),
         overlay_items: JSON.stringify([
             {
                 section: "🎨 General",
                 items: [
+                     { overlay_id: "caption:custom_color_1", source: "local", caption: { type: "custom", background: { colors: ["#FF0062", "#FF783F"] } } },
+{ overlay_id: "caption:custom_color_2", source: "local", caption: { type: "custom", background: { colors: ["#FF9A9E", "#FECFEF"] } } },
+{ overlay_id: "caption:custom_color_3", source: "local", caption: { type: "custom", background: { colors: ["#6A11CB", "#2575FC"] } } },
+{ overlay_id: "caption:custom_color_4", source: "local", caption: { type: "custom", background: { colors: ["#11998E", "#38EF7D"] } } },
+{ overlay_id: "caption:custom_color_5", source: "local", caption: { type: "custom", background: { colors: ["#F7971E", "#FFD200"] } } },
+{ overlay_id: "caption:custom_color_6", source: "local", caption: { type: "custom", background: { colors: ["#232526", "#414345"] } } },
+{ overlay_id: "caption:custom_color_7", source: "local", caption: { type: "custom", background: { colors: ["#00B4DB", "#0083B0"] } } },
                     { overlay_id: "caption:standard", source: "local", caption: { type: "standard" } },
                     { overlay_id: "caption:link", source: "local", caption: { type: "link" } },
                     { overlay_id: "caption:review", source: "local", caption: { type: "review" } },
