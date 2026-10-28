@@ -349,15 +349,10 @@ if (ua.includes("Locket")) {
         music_caption_enabled: "true",
         music_caption_song_preview_enabled: "true",
         link_caption_link_enabled: "true",
-    
-        overlay_dynamic_captions: JSON.stringify([
+            overlay_dynamic_captions: JSON.stringify([
             "standard", "poll", "color_palette", "review", "music", "location",
             "weather", "time", "streak", "star_sign", "party_time", "locket_count",
-            "good_morning", "goodnight", "ootd", "miss_you", "custom", "phunu_2010", "halloween_2026",
-            "chuoi_ngay_cay_phim", "phu_trong_dep_trai", "sinh_nhat_vui_ve_nha_ba", "cai_gi_z_troi",
-            "chi_dien_toi_day", "hoc_lam_z_troi", "toi_gio_di_ngu_roi", "wo_ai_ni", "tian_xiwei", "toi_me_ba_qua", 
-            "bien_oi_huuu", "gut_mo_ninh", "bao_nua_roi_a",
-            "gradient_1", "gradient_2", "gradient_3", "gradient_4", "gradient_5", "gradient_6", "gradient_7"
+            "good_morning", "goodnight", "ootd", "miss_you", "custom", "phunu_2010", "halloween_2026", "chuoi_ngay_cay_phim", "phu_trong_dep_trai", "sinh_nhat_vui_ve_nha_ba", "cai_gi_z_troi", "chi_dien_toi_day", "hoc_lam_z_troi", "toi_gio_di_ngu_roi", "wo_ai_ni", "tian_xiwei", "toi_me_ba_qua", "bien_oi_huuu", "gut_mo_ninh", "bao_nua_roi_a"
         ]),
         overlay_items: JSON.stringify([
             {
@@ -376,7 +371,7 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:color_palette", source: "local", caption: { type: "color_palette" } },
                     { overlay_id: "caption:quote", source: "local", caption: { type: "quote" } },
                     { overlay_id: "caption:breaking_news", source: "local", caption: { type: "breaking_news" } },
-                    { overlay_id: "caption:locket_count", source: "local", caption: { type: "locket_count" } }
+                    { overlay_id: "caption:locket_count", source: "local", caption: { type: "locket_count" } },
                 ]
             },
             {
@@ -395,15 +390,6 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:cai_gi_z_troi", source: "remote", caption: { background: { colors: ["#E2E8F0", "#CBD5E1", "#94A3B8"] }, icon: { data: "🙂", type: "emoji" }, max_lines: 1, text: "Cái gì z trời", localized_text: { en: "Cái gì z trời", vn: "Cái gì z trời" }, text_color: "#1E293B", type: "static_content" } },
                     { overlay_id: "caption:bien_oi_huuu", source: "remote", caption: { background: { colors: ["#00B4DB", "#0083B0"] }, icon: { data: "🌊", type: "emoji" }, max_lines: 1, text: "Biển ơi!!! Húuuu", localized_text: { en: "Biển ơi!!! Húuuu", vn: "Biển ơi!!! Húuuu" }, text_color: "#FFFFFF", type: "static_content" } }
                 ]
-            },
-            {
-  overlay_id: "caption:gradient_2",
-  source: "local",
-  caption: {
-    type: "standard"
-  }
-}
-]
             },
              {
                 section: "🎨 Holiday Caption",
