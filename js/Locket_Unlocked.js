@@ -349,13 +349,14 @@ if (ua.includes("Locket")) {
         music_caption_enabled: "true",
         music_caption_song_preview_enabled: "true",
         link_caption_link_enabled: "true",
-            overlay_dynamic_captions: JSON.stringify([
+        overlay_dynamic_captions: JSON.stringify([
             "standard", "poll", "color_palette", "review", "music", "location",
             "weather", "time", "streak", "star_sign", "party_time", "locket_count",
             "good_morning", "goodnight", "ootd", "miss_you", "custom", "phunu_2010", "halloween_2026",
             "chuoi_ngay_cay_phim", "phu_trong_dep_trai", "sinh_nhat_vui_ve_nha_ba", "cai_gi_z_troi",
             "chi_dien_toi_day", "hoc_lam_z_troi", "toi_gio_di_ngu_roi", "wo_ai_ni", "tian_xiwei", "toi_me_ba_qua", 
-            "bien_oi_huuu", "gut_mo_ninh", "bao_nua_roi_a"
+            "bien_oi_huuu", "gut_mo_ninh", "bao_nua_roi_a",
+            "gradient_1", "gradient_2", "gradient_3", "gradient_4", "gradient_5", "gradient_6", "gradient_7"
         ]),
         overlay_items: JSON.stringify([
             {
@@ -374,7 +375,7 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:color_palette", source: "local", caption: { type: "color_palette" } },
                     { overlay_id: "caption:quote", source: "local", caption: { type: "quote" } },
                     { overlay_id: "caption:breaking_news", source: "local", caption: { type: "breaking_news" } },
-                    { overlay_id: "caption:locket_count", source: "local", caption: { type: "locket_count" } },
+                    { overlay_id: "caption:locket_count", source: "local", caption: { type: "locket_count" } }
                 ]
             },
             {
@@ -389,9 +390,21 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:hoc_lam_z_troi", source: "remote", caption: { background: { colors: ["#6B7280", "#9CA3AF", "#D1D5DB"] }, icon: { data: "😵‍💫", type: "emoji" }, max_lines: 1, text: "Học lắm z trời", localized_text: { en: "Học lắm z trời", vn: "Học lắm z trời" }, text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:gut_mo_ninh", source: "remote", caption: { background: { colors: ["#FF8C00", "#FFA500", "#FFD700"] }, icon: { data: "☀️", type: "emoji" }, max_lines: 1, text: "Gút mó ninh", localized_text: { en: "Gút mó ninh", vn: "Gút mó ninh" }, text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:bao_nua_roi_a", source: "remote", caption: { background: { colors: ["#FF416C", "#FF4B2B"] }, icon: { data: "😠", type: "emoji" }, max_lines: 1, text: "Báo nữa rồi á", localized_text: { en: "Báo nữa rồi á", vn: "Báo nữa rồi á" }, text_color: "#FFFFFF", type: "static_content" } },
-                     { overlay_id: "caption:sinh_nhat_vui_ve_nha_ba", source: "remote", caption: { background: { colors: ["#FF758C", "#FF7EB3", "#FFC3A0"] }, icon: { data: "🎂", type: "emoji" }, max_lines: 1, text: "Sinh nhật vui vẻ nha bà", localized_text: { en: "Sinh nhật vui vẻ nha bà", vn: "Sinh nhật vui vẻ nha bà" }, text_color: "#FFFFFF", type: "static_content" } },
-                     { overlay_id: "caption:cai_gi_z_troi", source: "remote", caption: { background: { colors: ["#E2E8F0", "#CBD5E1", "#94A3B8"] }, icon: { data: "🙂", type: "emoji" }, max_lines: 1, text: "Cái gì z trời", localized_text: { en: "Cái gì z trời", vn: "Cái gì z trời" }, text_color: "#1E293B", type: "static_content" } },
+                    { overlay_id: "caption:sinh_nhat_vui_ve_nha_ba", source: "remote", caption: { background: { colors: ["#FF758C", "#FF7EB3", "#FFC3A0"] }, icon: { data: "🎂", type: "emoji" }, max_lines: 1, text: "Sinh nhật vui vẻ nha bà", localized_text: { en: "Sinh nhật vui vẻ nha bà", vn: "Sinh nhật vui vẻ nha bà" }, text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:cai_gi_z_troi", source: "remote", caption: { background: { colors: ["#E2E8F0", "#CBD5E1", "#94A3B8"] }, icon: { data: "🙂", type: "emoji" }, max_lines: 1, text: "Cái gì z trời", localized_text: { en: "Cái gì z trời", vn: "Cái gì z trời" }, text_color: "#1E293B", type: "static_content" } },
                     { overlay_id: "caption:bien_oi_huuu", source: "remote", caption: { background: { colors: ["#00B4DB", "#0083B0"] }, icon: { data: "🌊", type: "emoji" }, max_lines: 1, text: "Biển ơi!!! Húuuu", localized_text: { en: "Biển ơi!!! Húuuu", vn: "Biển ơi!!! Húuuu" }, text_color: "#FFFFFF", type: "static_content" } }
+                ]
+            },
+            {
+                section: "🎨 Studio Gradients",
+                items: [
+                    { overlay_id: "caption:gradient_1", source: "remote", caption: { background: { colors: ["#8A2387", "#E94057", "#F27121"] }, max_lines: 1, text: "", placeholder: "Nhập văn bản...", text_color: "#FFFFFF", type: "input" } },
+                    { overlay_id: "caption:gradient_2", source: "remote", caption: { background: { colors: ["#FF512F", "#DD2476"] }, max_lines: 1, text: "", placeholder: "Nhập văn bản...", text_color: "#FFFFFF", type: "input" } },
+                    { overlay_id: "caption:gradient_3", source: "remote", caption: { background: { colors: ["#F7971E", "#FFD200"] }, max_lines: 1, text: "", placeholder: "Nhập văn bản...", text_color: "#000000", type: "input" } },
+                    { overlay_id: "caption:gradient_4", source: "remote", caption: { background: { colors: ["#11998E", "#38EF7D"] }, max_lines: 1, text: "", placeholder: "Nhập văn bản...", text_color: "#FFFFFF", type: "input" } },
+                    { overlay_id: "caption:gradient_5", source: "remote", caption: { background: { colors: ["#2193b0", "#6dd5ed"] }, max_lines: 1, text: "", placeholder: "Nhập văn bản...", text_color: "#FFFFFF", type: "input" } },
+                    { overlay_id: "caption:gradient_6", source: "remote", caption: { background: { colors: ["#FF6A88", "#FF99AC"] }, max_lines: 1, text: "", placeholder: "Nhập văn bản...", text_color: "#FFFFFF", type: "input" } },
+                    { overlay_id: "caption:gradient_7", source: "remote", caption: { background: { colors: ["#ee9ca7", "#ffdde1"] }, max_lines: 1, text: "", placeholder: "Nhập văn bản...", text_color: "#000000", type: "input" } }
                 ]
             },
              {
