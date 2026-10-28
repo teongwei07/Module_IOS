@@ -349,18 +349,7 @@ if (ua.includes("Locket")) {
         music_caption_enabled: "true",
         music_caption_song_preview_enabled: "true",
         link_caption_link_enabled: "true",
-        
-        // 1. Bảng 7 màu gradient cho thanh đổi màu khi gõ chữ tự do:
-        overlay_color_palette: JSON.stringify([
-            { colors: ["#8A2387", "#E94057", "#F27121"] },
-            { colors: ["#FF512F", "#DD2476"] },
-            { colors: ["#F7971E", "#FFD200"] },
-            { colors: ["#11998E", "#38EF7D"] },
-            { colors: ["#2193b0", "#6dd5ed"] },
-            { colors: ["#FF6A88", "#FF99AC"] },
-            { colors: ["#ee9ca7", "#ffdde1"] }
-        ]),
-
+    
         overlay_dynamic_captions: JSON.stringify([
             "standard", "poll", "color_palette", "review", "music", "location",
             "weather", "time", "streak", "star_sign", "party_time", "locket_count",
@@ -408,16 +397,13 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
-                section: "🎨 Studio Gradients",
-                items: [
-                    { overlay_id: "caption:gradient_1", source: "remote", caption: { background: { colors: ["#8A2387", "#E94057", "#F27121"] }, max_lines: 1, text: "Nhập văn bản...", localized_text: { en: "Nhập văn bản...", vn: "Nhập văn bản..." }, text_color: "#FFFFFF", type: "static_content" } },
-                    { overlay_id: "caption:gradient_2", source: "remote", caption: { background: { colors: ["#FF512F", "#DD2476"] }, max_lines: 1, text: "Nhập văn bản...", localized_text: { en: "Nhập văn bản...", vn: "Nhập văn bản..." }, text_color: "#FFFFFF", type: "static_content" } },
-                    { overlay_id: "caption:gradient_3", source: "remote", caption: { background: { colors: ["#F7971E", "#FFD200"] }, max_lines: 1, text: "Nhập văn bản...", localized_text: { en: "Nhập văn bản...", vn: "Nhập văn bản..." }, text_color: "#000000", type: "static_content" } },
-                    { overlay_id: "caption:gradient_4", source: "remote", caption: { background: { colors: ["#11998E", "#38EF7D"] }, max_lines: 1, text: "Nhập văn bản...", localized_text: { en: "Nhập văn bản...", vn: "Nhập văn bản..." }, text_color: "#FFFFFF", type: "static_content" } },
-                    { overlay_id: "caption:gradient_5", source: "remote", caption: { background: { colors: ["#2193b0", "#6dd5ed"] }, max_lines: 1, text: "Nhập văn bản...", localized_text: { en: "Nhập văn bản...", vn: "Nhập văn bản..." }, text_color: "#FFFFFF", type: "static_content" } },
-                    { overlay_id: "caption:gradient_6", source: "remote", caption: { background: { colors: ["#FF6A88", "#FF99AC"] }, max_lines: 1, text: "Nhập văn bản...", localized_text: { en: "Nhập văn bản...", vn: "Nhập văn bản..." }, text_color: "#FFFFFF", type: "static_content" } },
-                    { overlay_id: "caption:gradient_7", source: "remote", caption: { background: { colors: ["#ee9ca7", "#ffdde1"] }, max_lines: 1, text: "Nhập văn bản...", localized_text: { en: "Nhập văn bản...", vn: "Nhập văn bản..." }, text_color: "#000000", type: "static_content" } }
-                ]
+  overlay_id: "caption:gradient_2",
+  source: "local",
+  caption: {
+    type: "standard"
+  }
+}
+]
             },
              {
                 section: "🎨 Holiday Caption",
